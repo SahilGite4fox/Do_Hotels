@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Mairo';
+    src: url('MairoRegular.eot');
+    src: url('MairoRegular.eot?#iefix') format('embedded-opentype'),
+        url('MairoRegular.woff2') format('woff2'),
+        url('MairoRegular.woff') format('woff'),
+        url('MairoRegular.ttf') format('truetype'),
+        url('MairoRegular.svg#MairoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

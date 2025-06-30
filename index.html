@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Home</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="./assets/js/slick-slider/slick.css">
+    <link rel="stylesheet" href="./assets/js/aos/aos.css">
+    <link rel="stylesheet" href="./assets/js/magnific/magnific-popup.css">
+    <link rel="stylesheet" href="./assets/css/init.css">
+    <link rel="stylesheet" href="./assets/css/svg-style.css">
+    <link rel="stylesheet" href="./assets/css/svg-device.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+    <!-- <script src="https://codepen.io/juliangarnier/pen/75efae7724dbc3c055e918057fc4aca5.js"></script> -->
+</head>
+
+<body>
+    <header class="col-100 clr">
+        <div class="headerWrapper">
+            <div class="headContent d-flex algnItmCent col-100 floatLft clr relative">
+                <div class="headMenu">
+                    <nav>
+                        <ul class="d-flex algnItmCent">
+                            <li><a href="./index.html" class="active">home</a></li>
+                            <li><a href="./our_story.html">our story</a></li>
+                            <li class="relative">
+                                <a href="javascript:;">
+                                    hotels & residences
+                                    <svg class="icon chevron-icon" viewBox="0 0 24 24" width="14" height="14">
+                                        <path d="M7 10l5 5 5-5z" fill="currentColor"></path>
+                                    </svg>
+                                </a>
+                                <ul class="dropdown absolute">
+                                    <li><a href="./do_dubai.html">Do Dubai</a></li>
+                                    <li><a href="./do_cairo.html">Do Cairo</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="https://beta.oneuae.com/" target="_blank">One</a></li>
+                            <li><a href="./media.html">media</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="headLogo">
+                    <a href="./index.html"><img src="./assets/images/Main_Logo.png" alt="Logo"></a>
+                </div>
+                <div class="headBtns d-flex algnItmCent">
+                    <div class="headBtn d-flex">
+                        <!-- <div class="headSearch">
+                            <a href="javascript:;">
+                                <img src="./assets/images/search.png" alt="search icon">
+                            </a>
+                        </div> -->
+                        <a href="./contact_us.html" class="comm_Btn hollow d-flex algnItmCent">Con
+                            <span><svg width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M2.0346 9C1.51295 9 1.06639 8.81426 0.694911 8.44278C0.323434 8.07131 0.137695 7.62474 0.137695 7.1031C0.137695 6.58145 0.323434 6.13488 0.694911 5.76341C1.06639 5.39193 1.51295 5.20619 2.0346 5.20619C2.21639 5.20619 2.38442 5.228 2.5387 5.27163C2.69298 5.31526 2.8411 5.38039 2.98305 5.46701V0.938154C2.98305 0.80379 3.02858 0.691241 3.11963 0.600505C3.21068 0.50977 3.32323 0.464244 3.45728 0.463928H5.35418C5.48855 0.463928 5.60125 0.509454 5.69231 0.600505C5.78336 0.691557 5.82873 0.804107 5.82841 0.938154V1.88661C5.82841 2.02097 5.78288 2.13368 5.69183 2.22473C5.60078 2.31578 5.48823 2.36115 5.35418 2.36083H3.9315V7.1031C3.9315 7.62474 3.74577 8.07131 3.37429 8.44278C3.00281 8.81426 2.55625 9 2.0346 9Z"
+                                        fill="#E48D3D" />
+                                </svg>
+                            </span>
+                            act Us</a>
+                    </div>
+                    <div class="mobile_Menu">
+                        <a href="javascript:;"><img src="./assets/images/menu_icon.png" alt="Menu"></a>
+                        <div class="mobile_MenuContent">
+                            <div class="mobile_Menu_close"><img src="./assets/images/close_icon.png" alt="Close"></div>
+                            <ul>
+                                <li><a href="./index.html">home</a></li>
+                                <li><a href="./our_story.html">our story</a></li>
+                                <li>
+                                    <a href="javascript:;" class="d-flex algnItmCent">
+                                        hotels & residences
+                                        <svg class="icon chevron-icon" viewBox="0 0 24 24" width="14" height="14">
+                                            <path d="M7 10l5 5 5-5z" fill="currentColor"></path>
+                                        </svg>
+                                    </a>
+                                    <ul class="dropdown">
+                                        <li><a href="./do_dubai.html">Do Dubai</a></li>
+                                        <li><a href="./do_cairo.html">Do Cairo</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="https://beta.oneuae.com/" target="_blank">One</a></li>
+                                <li><a href="./media.html">media</a></li>
+                                <li><a href="./contact_us.html">Contact Us</a></li>
+                                <!-- <li>
+                                    <div class="mob-menu-Lang d-flex"><a href="javascript:;" class="active">ENG</a><a
+                                            href="javascript:;">AR</a></div>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <audio id="bgMusic" src="./assets/Audio/Paradise Husky - Sugar Reef.wav" loop autoplay></audio>
+
+    <button id="muteBtn">
+        <!-- <img id="muteIcon" src="./assets/images/unmute.svg" alt="Unmute" /> -->
+        <div class="controls bottom-left-corner">
+            <div id="volume_icon" class="volume-icon volume3">
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </button>
+
+
+    <main class="col-100 clr relative sections">
+        <section class="hmHeroSec perScrollSec col-100 floatLft clr relative">
+            <div class="hmHeroBanner col-100 floatLft clr absolute">
+                <video autoplay loop muted playsinline preload="auto">
+                    <source src="./assets/images/homeVideo.mov" type="video/mp4"> Your browser does not support the
+                    video tag.
+                </video>
+            </div>
+            <div class="hmBannText col-100 floatLft clr">
+                <h1 class="comm_Title" data-aos="fade-up" data-aos-duration="1000">Live The <span>Beat</span></h1>
+                <div class="hmHeroSecBtn floatLft clr absolute" title="SCROLL" data-aos="fade-up"
+                    data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
+                    <a href="#hmMusicTheme">
+                        <!-- <img src="./assets/images/hmDownBtn.png" alt=""> -->
+                        <div class="downArrow downArrow_1">
+                            <svg width="39" height="24" viewBox="0 0 39 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.52"
+                                    d="M5.11654 2L2 4.30238L19.6604 21.6981L37.3208 4.81402L33.9445 2L19.6604 16.0701L5.11654 2Z"
+                                    stroke="white" stroke-width="2.03774" />
+                            </svg>
+                        </div>
+                        <div class="downArrow downArrow_2">
+                            <svg width="39" height="24" viewBox="0 0 39 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.52"
+                                    d="M5.11654 2L2 4.30238L19.6604 21.6981L37.3208 4.81402L33.9445 2L19.6604 16.0701L5.11654 2Z"
+                                    stroke="white" stroke-width="2.03774" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- musical theme -->
+        <section id="hmMusicTheme"
+            class="musicThemeInfo perScrollSec sv-secGap col-100 floatLft clr relative d-flex algnItmCent justContCent">
+            <div class="musicThemeVideo col-100 floatLft clr absolute">
+                <video class="col-100" autoplay loop muted playsinline preload="auto">
+                    <source src="./assets/images/musicTheme.mov" type="video/mp4"> Your browser does not support the
+                    video tag.
+                </video>
+            </div>
+            <div class="hmMusicTxt col-100 floatLft clr">
+                <div class="wrap-Content">
+                    <div class="musicTxt col-100 floatLft clr relative" data-aos="fade-up" data-aos-duration="1500"
+                        data-aos-anchor-placement="top-bottom" data-aos-delay="200">
+                        <h2 class="sub_title textCenter spanGredient"><span>The world’s first <br>musical themed hotel
+                                <br>that
+                                integrates AI, <br>music and wellness. </span></h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Home Story -->
+        <section class="homeMusicStory parallaxBg sv-secGap col-100 floatLft clr relative">
+            <div class="parallax-image"></div>
+            <div class="wrap-Content">
+                <div class="hmMusicStoryInfo floatLft clr relative">
+                    <p data-aos="fade-right" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">do
+                        hotels & residences</p>
+                    <h2 class="comm_Title" data-aos="fade-right" data-aos-duration="1000"
+                        data-aos-anchor-placement="bottom-bottom" data-aos-delay="200"><span>STORY</span></h2>
+                    <p class="storyDisc" data-aos="fade-right" data-aos-duration="1000"
+                        data-aos-anchor-placement="bottom-bottom" data-aos-delay="400">Every detail here is crafted to
+                        create connection and inspire creativity. It’s an invitation to live boldly, experience the
+                        music in every moment, embrace the rhythm of life, and truly live the beat.</p>
+                    <div class="mediaReadMore col-100 floatLft d-flex" data-aos="fade-right" data-aos-duration="1000"
+                        data-aos-anchor-placement="bottom-bottom" data-aos-delay="600"><a href="./our_story.html"
+                            class="comm_Btn floatLft">explore more</a></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Home Destination -->
+        <section class="hmDestinySec sv-secGap col-100 floatLft clr relative">
+            <!-- <div class="parallax-image"></div> -->
+            <div class="wrap-Content relative z-3">
+                <div class="destiniBoxTxt col-100 floatLft clr relative">
+                    <h2 class="sub_title spanGredient textCenter"><span>a destination <br>where you don’t <br>just stay
+                            — you feel.</span></h2>
+                </div>
+            </div>
+            <div class="hmDestinySecAfter col-100 absolute"></div>
+        </section>
+
+        <!-- Home Development -->
+        <section class="hmOurDevelop sv-secGap col-100 floatLft clr relative">
+            <div class="hmDevWrapp">
+                <div class="hmDevHead col-100 floatLft clr relative">
+                    <p data-aos="fade-right" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">do
+                        hotels & residences</p>
+                    <h2 class="comm_Title" data-aos="fade-right" data-aos-duration="1000"
+                        data-aos-anchor-placement="bottom-bottom" data-aos-delay="100"><span>Our developments</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="Secend col-100 floatLft clr relative">
+                <div class="subSecend col-100 floatLft clr relative">
+                    <div class="sr-commdiv">
+                        <div class="hmDevInfoBox col-100 floatLft clr relative"
+                            style="background-image: url('./assets/images/devImg1.png');">
+                            <div class="devImgTxt floatRgt clr relative">
+                                <div class="hmDevLogo">
+                                    <img src="./assets/images/Dubai_Do_Logo.png" alt="">
+                                </div>
+                                <div class="hmDevInfo">
+                                    <p>More than just a destination, it’s an experience where rhythm and refinement
+                                        meet, offering a music-themed hotel, immersive dining and branded residences
+                                        designed for those who live life in harmony with art and culture. </p>
+                                </div>
+                                <div class="mediaReadMore col-100 floatLft d-flex"><a href="./do_dubai.html"
+                                        class="comm_Btn floatLft">Learn More</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sr-commdiv">
+                        <div class="hmDevInfoBox col-100 floatLft clr relative"
+                            style="background-image: url('./assets/images/devImg2.png');">
+                            <div class="devImgTxt floatRgt clr relative">
+                                <div class="hmDevLogo">
+                                    <img src="./assets/images/Cairo_Do_Logo.png" alt="">
+                                </div>
+                                <div class="hmDevInfo">
+                                    <p>A destination where living, working and unwinding exist in perfect harmony. With
+                                        residences, retail and offices at your doorstep, everything you need is already
+                                        here.</p>
+                                </div>
+                                <div class="mediaReadMore col-100 floatLft d-flex"><a href="./do_cairo.html"
+                                        class="comm_Btn floatLft">Learn More</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Home Music Driven -->
+        <section class="hmMusicDriveSec sv-secGap parallaxBg col-100 floatLft clr relative"
+            style="background-attachment: fixed;">
+            <div class="parallax-image"></div>
+            <div class="musicDriven-wrapp">
+                <div class="mdSlideBox" data-aos="fade-up" data-aos-duration="1500"
+                    data-aos-anchor-placement="top-bottom">
+                    <div class="mdSlide mdSlide1 active">
+                        <p>Music isn't just a backdrop here; it's the energy that drives the hotel, creating an
+                            environment that constantly evolves, flows, and inspires.</p>
+                        <a href="javascript:;" class="mdSlideArrow">
+                            <img src="./assets/images/nextBtn.png" alt="">
+                        </a>
+                        <div class="mdSlideTitle mdTitleHome col-100 floatLft">
+                            <h3 class="col-100 floatLft">Music-Driven</h3>
+                        </div>
+                    </div>
+                    <div class="mdSlide mdSlide2">
+                        <p>We provide meaningful journeys that blend luxury with local culture, technology, and
+                            wellness, allowing guests to truly experience every aspect rather than simply observe it.
+                        </p>
+                        <a href="javascript:;" class="mdSlideArrow">
+                            <img src="./assets/images/nextBtn.png" alt="">
+                        </a>
+                        <div class="mdSlideTitle col-100 floatLft">
+                            <h3 class="col-100 floatLft">Experiential Stays</h3>
+                        </div>
+                    </div>
+                    <div class="mdSlide mdSlide3">
+                        <p>Go beyond indulgence with bespoke experiences that combine wellness and personal growth,
+                            allowing you to leave feeling revived and inspired.</p>
+                        <a href="javascript:;" class="mdSlideArrow">
+                            <img src="./assets/images/nextBtn.png" alt="">
+                        </a>
+                        <div class="mdSlideTitle col-100 floatLft">
+                            <h3 class="col-100 floatLft">Holistic Wellbeing</h3>
+                        </div>
+                    </div>
+                    <div class="mdSlide mdSlide4">
+                        <p>With cutting-edge Al technology it's not just about remembering your preferences-it's about
+                            anticipating them to create a truly bespoke experience.</p>
+                        <a href="javascript:;" class="mdSlideArrow">
+                            <img src="./assets/images/nextBtn.png" alt="">
+                        </a>
+                        <div class="mdSlideTitle col-100 floatLft">
+                            <h3 class="col-100 floatLft">Personalization through AI</h3>
+                        </div>
+                    </div>
+                    <div class="mdSlide mdSlide5">
+                        <p>Launching with a strong foundation, were bringing our vision to life in key cities, starting
+                            with UAE, Egypt, Saudi Arabia and Greece.</p>
+                        <a href="javascript:;" class="mdSlideArrow">
+                            <img src="./assets/images/nextBtn.png" alt="">
+                        </a>
+                        <div class="mdSlideTitle col-100 floatLft">
+                            <h3 class="col-100 floatLft">Global Presence</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Home Media Slide -->
+        <section class="hmMediaBox sv-secGap parallaxBg col-100 floatLft clr relative"
+            style="background-attachment: fixed;">
+            <div class="parallax-image"></div>
+            <div class="hmMedia-wrapp">
+                <div class="hmDevHead col-100 floatLft clr relative">
+                    <p data-aos="fade-right" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">do
+                        hotels & residences</p>
+                    <h2 class="comm_Title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                        <span>Media</span>
+                    </h2>
+                </div>
+                <div class="hmMediaSliderBox col-100 floatLft clr relative">
+                    <div class="hmMediaSlideTxt" data-aos="fade-right" data-aos-duration="1500"
+                        data-aos-anchor-placement="top-bottom">
+                        <!-- <div class="hmMediaTxt">
+                            <span>May 9, 2025</span>
+                            <p>Experience luxury infused with music and culture where every moment inspires creativity</p>
+                            <div class="hmMediaReadMore"><a href="javascript:;" class="comm_Btn">Read more</a></div>
+                        </div> -->
+                        <div class="hmMediaTxt">
+                            <span>Feb 5, 2025</span>
+                            <p>The Legend Amr Diab and ONE Development Introduce DO Hotels</p>
+                            <div class="hmMediaReadMore"><a
+                                    href="https://www.constructionweekonline.com/news/one-development-and-amr-diab-unveils-uaes-first-music-themed-ai-driven-hotel"
+                                    class="comm_Btn" target="_blank">Read more</a></div>
+                        </div>
+                    </div>
+                    <div class="hmMediaSlideImg" data-aos="fade-left" data-aos-duration="1500"
+                        data-aos-anchor-placement="top-bottom">
+                        <img src="./assets/images/mediaslide2.png" alt="Media">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Home Contact -->
+        <section class="registerSec sv-secGap parallaxBg col-100 floatLft clr relative">
+            <div class="parallax-image"></div>
+            <div class="main-wrapper relative">
+                <div class="hmContact-wrapp">
+                    <div class="registerSecCont d-flex algnItmCent justContSpBtw col-100 floatLft clr relative">
+                        <div class="registerSecContTxt">
+                            <h2 class="comm_Title" data-aos="fade-right" data-aos-duration="1000"
+                                data-aos-anchor-placement="center-bottom"><span>register your interest</span></h2>
+                            <p data-aos="fade-right" data-aos-duration="1000" data-aos-anchor-placement="center-bottom"
+                                data-aos-delay="200">We’re here to assist with anything you need — reach out and let us
+                                make your experience exceptional.</p>
+                        </div>
+                        <div class="registerSecContFrm relative" data-aos="fade-left" data-aos-duration="1000"
+                            data-aos-anchor-placement="center-bottom">
+                            <div class="registerContForm">
+                                <form id="enquireFormHome">
+                                    <div class="detailsForm">
+                                        <ul class="registerContForm-ul d-flex flxFlwRwWrp">
+                                            <li class="wid-50">
+                                                <div class="floating-labelInp">
+                                                    <label for="firstName" class="floating-label">First Name</label>
+                                                    <input name="firstName" type="text" required>
+                                                </div>
+                                            </li>
+                                            <li class="wid-50">
+                                                <div class="floating-labelInp">
+                                                    <label for="lastName" class="floating-label">Last Name</label>
+                                                    <input name="lastName" type="text" required>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="floating-labelInp">
+                                                    <label for="mobile"
+                                                        class="floating-label telFlagLab d-flex algnItmCent"><img
+                                                            src="./assets/images/UAE_tel.png" alt="Tel."
+                                                            class="telFlag">+971</label>
+                                                    <input name="mobile" type="tel" required>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="floating-labelInp">
+                                                    <label for="email" class="floating-label">Email</label>
+                                                    <input name="email" type="email" required>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="floating-labelInp">
+                                                    <label for="projectID" class="floating-label">Project</label>
+                                                    <select name="projectID" id="" required>
+                                                        <option value="" disabled selected></option>
+                                                        <!-- <option value='Laguna Residences'>Laguna Residences</option> -->
+                                                        <option value='DO Dubai Island'>DO Dubai Islands</option>
+                                                        <!-- <option value='DO New Cairo'>DO New Cairo</option> -->
+                                                    </select>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="floating-labelInp">
+                                                    <label for="noOfBedrooms" class="floating-label">Number of
+                                                        Bedrooms</label>
+                                                    <select name="noOfBedrooms" id="" required>
+                                                        <option value="" disabled selected></option>
+                                                        <option value="1">Studio</option>
+                                                        <option value="1">Bedroom 1</option>
+                                                        <option value="2">Bedroom 2</option>
+                                                        <option value="3">Bedroom 3</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                            <li class="noBorder noBorder1">
+                                                <div class="checkBoxFrm d-flex">
+                                                    <div class="checkBoxFm relative">
+                                                        <input type="checkbox" name="isAgree" id="isAgree" required />
+                                                        <label for="isAgree"></label>
+                                                    </div>
+                                                    <p>I agree to be communicated via call, sms, and email</p>
+                                                </div>
+                                            </li>
+                                            <li class="noBorder">
+                                                <div class="checkBoxFrm d-flex">
+                                                    <div class="checkBoxFm relative">
+                                                        <input type="checkbox" name="isAgreeMarketing"
+                                                            id="isAgreeMarketing" />
+                                                        <label for="isAgreeMarketing"></label>
+                                                    </div>
+                                                    <p>I agree to receive marketing communications from DO Hotels</p>
+                                                </div>
+                                            </li>
+                                            <li class="col-100">
+                                                <div class="submitEntry-Btn d-flex algnItmCent justContCent">
+                                                    <button class="col-100">submit</button>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="formfailMsg formMsg">
+            <div class="formMsgCont d-flex algnItmCent">
+                <div class="formMsgSvg">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10 0C4.47 0 0 4.47 0 10C0 15.53 4.47 20 10 20C15.53 20 20 15.53 20 10C20 4.47 15.53 0 10 0ZM12.59 6L10 8.59L7.41 6L6 7.41L8.59 10L6 12.59L7.41 14L10 11.41L12.59 14L14 12.59L11.41 10L14 7.41L12.59 6Z"
+                            fill="#E6DAFE" />
+                    </svg>
+                </div>
+                <div class="formMsgTxt failMsgTxt">Submission failed. Please check your information and try again</div>
+            </div>
+        </div>
+        <div class="formsucssMsg formMsg">
+            <div class="formMsgCont d-flex algnItmCent">
+                <div class="formMsgSvg">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10 0C4.5 0 0 4.5 0 10C0 15.5 4.5 20 10 20C15.5 20 20 15.5 20 10C20 4.5 15.5 0 10 0ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM14.59 5.58L8 12.17L5.41 9.59L4 11L8 15L16 7L14.59 5.58Z"
+                            fill="#E6DAFE" />
+                    </svg>
+                </div>
+                <div class="formMsgTxt successMsgTxt">Message sent. We will keep you updated</div>
+            </div>
+        </div>
+    </main>
+    <footer class="col-100 clr relative">
+        <div class="footerWrapper">
+            <div class="footerContent col-100 floatLft clr relative">
+                <div class="footerTop d-flex algnItmCent justContSpBtw col-100 floatLft clr relative">
+                    <div class="footLogo"><a href="./index.html"><img src="./assets/images/Footer_Logo.png"
+                                alt="Logo"></a></div>
+                    <div class="footSocials">
+                        <ul class="d-flex algnItmCent">
+                            <li><a href="https://www.instagram.com/doboutiquehotels" target="_blank"><img
+                                        src="./assets/images/foot_insta.png" alt="Instagram"></a></li>
+                            <li><a href="https://www.linkedin.com/company/doboutiquehotels/" target="_blank"><img
+                                        src="./assets/images/foot_linkdin.png" alt="Linkdin"></a></li>
+                            <li><a href="https://x.com/DoBoutiqueHotel" target="_blank"><img
+                                        src="./assets/images/foot_twitter.png" alt="Twitter"></a></li>
+                            <li><a href="https://www.facebook.com/DoBoutiqueHotels" target="_blank"><img
+                                        src="./assets/images/foot_facebook.png" alt="Facebook"></a></li>
+                            <li><a href="https://www.youtube.com/@DoBoutiqueHotels " target="_blank"><img
+                                        src="./assets/images/foot_youtube.png" alt="YouTube"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footLinks d-flex justContSpBtw flxFlwRwWrp col-100 floatLft clr relative">
+                    <div class="footLinks1 d-flex">
+                        <div class="footLink1">
+                            <ul>
+                                <li class="d-flex">
+                                    <span><img src="./assets/images/foot_mail_logo.png" alt="Mail"></span>
+                                    <a href="mailto:info@oneuae.com" target="_blank">info@oneuae.com</a>
+                                </li>
+                                <li class="d-flex">
+                                    <span><img src="./assets/images/foot_location_logo.png" alt="Address"></span>
+                                    <p><a target="_blank"
+                                            href="https://www.google.com/maps/place/One+Development+%7C+Abu+Dhabi+Showroom/@24.5335481,54.4261034,15z/data=!4m6!3m5!1s0x3e5e6736b8f5978f:0x13772a291e9aeb37!8m2!3d24.5379282!4d54.4236028!16s%2Fg%2F11lmhjgyc0?entry=tts&g_ep=EgoyMDI1MDUxMy4xIPu8ASoASAFQAw%3D%3D&skid=07ca2ed9-cb59-4599-aa31-5df4de4e8e10">
+                                            Abu Dhabi<br>
+                                            St. Regis Saadiyat Island
+                                        </a><a href="tel:+971 2 622 1165" target="_blank">+971 2 622 1165</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footLink2">
+                            <ul>
+                                <li class="d-flex">
+                                    <span><img src="./assets/images/foot_phone_logo.png" alt="Mail"></span>
+                                    <a href="tel:800 663 338" target="_blank">800 663 338</a>
+                                </li>
+                                <li class="d-flex">
+                                    <span><img src="./assets/images/foot_location_logo.png" alt="Address"></span>
+                                    <p><a target="_blank"
+                                            href="https://www.google.com/maps/place/Conrad+Dubai/@25.2256603,55.2815163,17z/data=!4m9!3m8!1s0x3e5f42ee8879e54b:0x18c04cc22bfbd904!5m2!4m1!1i2!8m2!3d25.2256603!4d55.2840912!16s%2Fm%2F0417mln?entry=tts&g_ep=EgoyMDI1MDUxMy4xIPu8ASoASAFQAw%3D%3D&skid=dabbc76e-0242-4e49-8618-c90f1756b40f">
+                                            Dubai<br>
+                                            Sheikh Zayed Rd.
+                                        </a> <a href="tel:+971 4 345 5051" target="_blank">+971 4 345 5051</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footLinks2">
+                        <h6>Quick Links</h6>
+                        <div class="footLiksLink d-flex">
+                            <div class="footLiksLink1">
+                                <ul>
+                                    <li><a href="./our_story.html">Our Story</a></li>
+                                    <li><a href="./media.html">Media</a></li>
+                                </ul>
+                            </div>
+                            <div class="footLiksLink2">
+                                <ul>
+                                    <li><a href="./do_dubai.html">Hotels & Residences</a></li>
+                                    <li><a href="./contact_us.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="foot_newsletterSec">
+                        <form id="subscribeForm">
+                            <label for="#">Sign up for our Newsletter</label>
+                            <div class="foot_newsletterInp d-flex algnItmCent">
+                                <input type="email" name="email" id="email" placeholder="Email" required>
+                                <button>Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footBtm col-100 floatLft clr">
+            <div class="footerWrapper d-flex algnItmCent justContSpBtw">
+                <div class="footBtmCont">
+                    <p>© DO Hotels 2025 - All Rights Reserved</p>
+                </div>
+                <div class="footBtmLinks">
+                    <ul class="d-flex algnItmCent">
+                        <!-- <li><a href="javascript:;">DO Hotels T&C</a></li> -->
+                        <li><a href="./privacy_policy.html">Privacy & Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./assets/js/jQuery/jquery-3.6.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/aos/aos.js"></script>
+    <script src="./assets/js/magnific/jquery.magnific-popup.min.js"></script>
+    <script src="./assets/js/slick-slider/slick.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
+    <script>
+
+
+
+        // Per section Scroll 
+        const panels = document.querySelectorAll('.perScrollSec');
+        let isScrolling = false;
+
+        function getCurrentPanelIndex() {
+            const scrollPos = window.scrollY;
+            for (let i = 0; i < panels.length; i++) {
+                const panelTop = panels[i].offsetTop;
+                const panelBottom = panelTop + panels[i].offsetHeight;
+                if (scrollPos >= panelTop && scrollPos < panelBottom) {
+                    return i;
+                }
+            }
+            return -1;
+        }
+
+        function scrollToPanel(index) {
+            if (index < 0 || index >= panels.length) return;
+            isScrolling = true;
+            window.scrollTo({
+                top: panels[index].offsetTop,
+                behavior: 'auto' // use 'smooth' if you want slight animation
+            });
+            setTimeout(() => {
+                isScrolling = false;
+            }, 100);
+        }
+
+        // This code is for both scroll up and down
+
+        // window.addEventListener('wheel', (e) => {
+        //   if (isScrolling) return;
+
+        //   const activeIndex = getCurrentPanelIndex();
+        //   if (activeIndex === -1) return; // not inside a .panel, allow natural scroll
+
+        //   // Prevent normal scroll only inside .panel
+        //   e.preventDefault();
+
+        //   if (e.deltaY > 0 && activeIndex < panels.length - 1) {
+        //     scrollToPanel(activeIndex + 1);
+        //   } else if (e.deltaY < 0 && activeIndex > 0) {
+        //     scrollToPanel(activeIndex - 1);
+        //   } else {
+        //     // Allow scroll out if it's the last panel and user scrolls down
+        //     // or first panel and user scrolls up
+        //     isScrolling = true;
+        //     setTimeout(() => {
+        //       isScrolling = false;
+        //     }, 300); // allow next scroll
+        //   }
+        // }, { passive: false });
+
+        // This code is only for scroll up
+
+        // ✅ Enable scroll locking only if screen width is 610px or more
+        if (window.innerWidth >= 610) {
+            window.addEventListener('wheel', (e) => {
+                if (isScrolling) return;
+
+                const activeIndex = getCurrentPanelIndex();
+                if (activeIndex === -1) return;
+
+                if (e.deltaY > 0 && activeIndex < panels.length - 1) {
+                    e.preventDefault();
+                    scrollToPanel(activeIndex + 1);
+                }
+                // Allow scroll up normally
+            }, { passive: false });
+
+            window.onload = () => {
+                const initial = getCurrentPanelIndex();
+                if (initial >= 0) scrollToPanel(initial);
+            };
+        }
+
+
+        function handleResponsivePanelClass() {
+            const elements = document.querySelectorAll('.musicThemeInfo, .hmHeroSec');
+
+            elements.forEach(el => {
+                if (window.innerWidth < 610) {
+                    el.classList.remove('perScrollSec');
+                } else {
+                    if (!el.classList.contains('perScrollSec')) {
+                        el.classList.add('perScrollSec');
+                    }
+                }
+            });
+        }
+
+        // Run on page load
+        window.addEventListener('DOMContentLoaded', handleResponsivePanelClass);
+
+        // Run on resize
+        window.addEventListener('resize', handleResponsivePanelClass);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // Create timeline paused
+        gsap.registerPlugin(ScrollTrigger);
+
+        let tl = gsap.timeline({ paused: true });
+
+        tl.to(".hmDestinySec", {
+            backgroundSize: "100% 100%",
+            duration: 1.5,
+            ease: "power2.out"
+        })
+            .to(".destiniBoxTxt", {
+                opacity: 1,
+                y: 0,
+                duration: 1
+            }, "-=0.8")
+            .to(".hmDestinySecAfter", {
+                opacity: 1,
+                y: 0,
+                duration: 1
+            }, "-=0.6");
+
+        // ✅ Apply only for screens wider than 610px
+        ScrollTrigger.matchMedia({
+            "(min-width: 611px)": function () {
+                ScrollTrigger.create({
+                    id: "destinyPin",
+                    trigger: ".hmDestinySec",
+                    start: "top top",
+                    end: "+=100%",
+                    pin: true,
+                    scrub: false,
+                    anticipatePin: 1,
+                    onEnter: self => {
+                        // 🔒 Disable scroll
+                        document.documentElement.classList.add("no-scroll-hmgsap");
+
+                        tl.play().then(() => {
+                            // 🔓 Re-enable scroll
+                            document.documentElement.classList.remove("no-scroll-hmgsap");
+
+                            // 💥 Kill ScrollTrigger
+                            const st = ScrollTrigger.getById("destinyPin");
+                            if (st) st.kill(true);
+
+                            // ⬇️ Scroll below the section after animation
+                            setTimeout(() => {
+                                window.scrollTo({
+                                    top: document.querySelector(".hmDestinySec").offsetTop + document.querySelector(".hmDestinySec").offsetHeight,
+                                    behavior: "auto"
+                                });
+
+                                // 🧠 Refresh all ScrollTriggers
+                                ScrollTrigger.refresh();
+                            }, 100);
+                        });
+                    }
+                });
+            }
+        });
+
+
+
+
+        const audio = document.getElementById('bgMusic');
+        const btn = document.getElementById('muteBtn');
+        const icon = document.getElementById('volume_icon');
+        const bars = icon.querySelectorAll('span');
+
+        let animateInterval = null;
+
+        // Toggle mute on button click
+        btn.addEventListener('click', () => {
+            audio.muted = !audio.muted;
+            icon.classList.toggle('muted', audio.muted);
+            if (audio.muted) {
+                clearInterval(animateInterval);
+                bars.forEach(bar => bar.style.height = '5px');
+            } else {
+                startRandomBarAnimation();
+            }
+        });
+
+        // Function to start bar height animation
+        function startRandomBarAnimation() {
+            clearInterval(animateInterval);
+            animateInterval = setInterval(() => {
+                bars.forEach(bar => {
+                    const randomHeight = Math.floor(Math.random() * 16) + 5; // 5px to 20px
+                    bar.style.height = `${randomHeight}px`;
+                });
+            }, 200); // Change every 200ms
+        }
+
+        // Start animation by default
+        startRandomBarAnimation();
+
+
+
+
+
+
+
+
+    </script>
+
+    <!-- <script>
+        const sections = document.querySelectorAll("section");
+
+        gsap.to(sections, {
+        scrollTrigger: {
+            trigger: ".musicThemeInfo",
+            start: "top top",
+            end: "+=100%",
+            scrub: true,
+            pin: true,
+            snap: 1,
+        }
+        });
+    </script> -->
+
+</body>
+
+
+
+</html>

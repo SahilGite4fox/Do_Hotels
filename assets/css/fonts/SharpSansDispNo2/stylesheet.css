@@ -1,0 +1,228 @@
+@font-face {
+    font-family: 'Sharp Sans Disp No2';
+    src: url('SharpSansDispNo2-Bold.eot');
+    src: url('SharpSansDispNo2-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SharpSansDispNo2-Bold.woff2') format('woff2'),
+        url('SharpSansDispNo2-Bold.woff') format('woff'),
+        url('SharpSansDispNo2-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Sans Disp No2';
+    src: url('SharpSansDispNo2-BoldObl.eot');
+    src: url('SharpSansDispNo2-BoldObl.eot?#iefix') format('embedded-opentype'),
+        url('SharpSansDispNo2-BoldObl.woff2') format('woff2'),
+        url('SharpSansDispNo2-BoldObl.woff') format('woff'),
+        url('SharpSansDispNo2-BoldObl.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Sans Disp No2';
+    src: url('SharpSansDispNo2-BlackObl.eot');
+    src: url('SharpSansDispNo2-BlackObl.eot?#iefix') format('embedded-opentype'),
+        url('SharpSansDispNo2-BlackObl.woff2') format('woff2'),
+        url('SharpSansDispNo2-BlackObl.woff') format('woff'),
+        url('SharpSansDispNo2-BlackObl.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Sans Disp No2';
+    src: url('SharpSansDispNo2-Black.eot');
+    src: url('SharpSansDispNo2-Black.eot?#iefix') format('embedded-opentype'),
+        url('SharpSansDispNo2-Black.woff2') format('woff2'),
+        url('SharpSansDispNo2-Black.woff') format('woff'),
+        url('SharpSansDispNo2-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Sans Disp No2';
+    src: url('SharpSansDispNo2-Light.eot');
+    src: url('SharpSansDispNo2-Light.eot?#iefix') format('embedded-opentype'),
+        url('SharpSansDispNo2-Light.woff2') format('woff2'),
+        url('SharpSansDispNo2-Light.woff') format('woff'),
+        url('SharpSansDispNo2-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Sans Disp No2';
+    src: url('SharpSansDispNo2-LightOlb.eot');
+    src: url('SharpSansDispNo2-LightOlb.eot?#iefix') format('embedded-opentype'),
+        url('SharpSansDispNo2-LightOlb.woff2') format('woff2'),
+        url('SharpSansDispNo2-LightOlb.woff') format('woff'),
+        url('SharpSansDispNo2-LightOlb.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Sans Disp No2';
+    src: url('SharpSansDispNo2-Medium.eot');
+    src: url('SharpSansDispNo2-Medium.eot?#iefix') format('embedded-opentype'),
+        url('SharpSansDispNo2-Medium.woff2') format('woff2'),
+        url('SharpSansDispNo2-Medium.woff') format('woff'),
+        url('SharpSansDispNo2-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Sans Disp No2 ExtBold';
+    src: url('SharpSansDispNo2-ExtBoldObl.eot');
+    src: url('SharpSansDispNo2-ExtBoldObl.eot?#iefix') format('embedded-opentype'),
+        url('SharpSansDispNo2-ExtBoldObl.woff2') format('woff2'),
+        url('SharpSansDispNo2-ExtBoldObl.woff') format('woff'),
+        url('SharpSansDispNo2-ExtBoldObl.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Sans Disp No2 Hairline';
+    src: url('SharpSansDispNo2-HairlineOlb.eot');
+    src: url('SharpSansDispNo2-HairlineOlb.eot?#iefix') format('embedded-opentype'),
+        url('SharpSansDispNo2-HairlineOlb.woff2') format('woff2'),
+        url('SharpSansDispNo2-HairlineOlb.woff') format('woff'),
+        url('SharpSansDispNo2-HairlineOlb.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Sans Disp No2';
+    src: url('SharpSansDispNo2-MediumOlb.eot');
+    src: url('SharpSansDispNo2-MediumOlb.eot?#iefix') format('embedded-opentype'),
+        url('SharpSansDispNo2-MediumOlb.woff2') format('woff2'),
+        url('SharpSansDispNo2-MediumOlb.woff') format('woff'),
+        url('SharpSansDispNo2-MediumOlb.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Sans Disp No2 ExtBold';
+    src: url('SharpSansDispNo2-ExtBold.eot');
+    src: url('SharpSansDispNo2-ExtBold.eot?#iefix') format('embedded-opentype'),
+        url('SharpSansDispNo2-ExtBold.woff2') format('woff2'),
+        url('SharpSansDispNo2-ExtBold.woff') format('woff'),
+        url('SharpSansDispNo2-ExtBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Sans Disp No2';
+    src: url('SharpSansDispNo2-BookObl.eot');
+    src: url('SharpSansDispNo2-BookObl.eot?#iefix') format('embedded-opentype'),
+        url('SharpSansDispNo2-BookObl.woff2') format('woff2'),
+        url('SharpSansDispNo2-BookObl.woff') format('woff'),
+        url('SharpSansDispNo2-BookObl.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Sans Disp No2 Hairline';
+    src: url('SharpSansDispNo2-Hairline.eot');
+    src: url('SharpSansDispNo2-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('SharpSansDispNo2-Hairline.woff2') format('woff2'),
+        url('SharpSansDispNo2-Hairline.woff') format('woff'),
+        url('SharpSansDispNo2-Hairline.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Sans Disp No2';
+    src: url('SharpSansDispNo2-ThinObl.eot');
+    src: url('SharpSansDispNo2-ThinObl.eot?#iefix') format('embedded-opentype'),
+        url('SharpSansDispNo2-ThinObl.woff2') format('woff2'),
+        url('SharpSansDispNo2-ThinObl.woff') format('woff'),
+        url('SharpSansDispNo2-ThinObl.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Sans Disp No2';
+    src: url('SharpSansDispNo2-SemiBoldObl.eot');
+    src: url('SharpSansDispNo2-SemiBoldObl.eot?#iefix') format('embedded-opentype'),
+        url('SharpSansDispNo2-SemiBoldObl.woff2') format('woff2'),
+        url('SharpSansDispNo2-SemiBoldObl.woff') format('woff'),
+        url('SharpSansDispNo2-SemiBoldObl.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Sans Disp No2';
+    src: url('SharpSansDispNo2-Thin.eot');
+    src: url('SharpSansDispNo2-Thin.eot?#iefix') format('embedded-opentype'),
+        url('SharpSansDispNo2-Thin.woff2') format('woff2'),
+        url('SharpSansDispNo2-Thin.woff') format('woff'),
+        url('SharpSansDispNo2-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Sans Disp No2 UltThin';
+    src: url('SharpSansDispNo2-UltThin.eot');
+    src: url('SharpSansDispNo2-UltThin.eot?#iefix') format('embedded-opentype'),
+        url('SharpSansDispNo2-UltThin.woff2') format('woff2'),
+        url('SharpSansDispNo2-UltThin.woff') format('woff'),
+        url('SharpSansDispNo2-UltThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Sans Disp No2 UltThin';
+    src: url('SharpSansDispNo2-UltThinObl.eot');
+    src: url('SharpSansDispNo2-UltThinObl.eot?#iefix') format('embedded-opentype'),
+        url('SharpSansDispNo2-UltThinObl.woff2') format('woff2'),
+        url('SharpSansDispNo2-UltThinObl.woff') format('woff'),
+        url('SharpSansDispNo2-UltThinObl.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Sans Disp No2';
+    src: url('SharpSansDispNo2-SemiBold.eot');
+    src: url('SharpSansDispNo2-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('SharpSansDispNo2-SemiBold.woff2') format('woff2'),
+        url('SharpSansDispNo2-SemiBold.woff') format('woff'),
+        url('SharpSansDispNo2-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
